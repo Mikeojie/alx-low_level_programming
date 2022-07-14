@@ -5,11 +5,12 @@
  * @n: input integer.
  * Return: no return.
  */
+
 void print_number(int n)
 {
 	unsigned int m, d, count;
 
-	f (n < 0)
+	if (n < 0)
 
 	{
 		_putchar(45);
